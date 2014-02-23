@@ -1,0 +1,55 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	height: 100%;
+	width: 100%;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+}
+canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+footer{
+	position: relative;
+	bottom: 0;
+	height: 35px;
+}
+
+#background-canvas{
+	outline: 0;
+	border: 1px solid #000;
+	
+	z-index: 1;
+}
+#skeletons{
+	z-index: 2;
+}
+
+#character{	
+	z-index: 3;
+}
+#charactergif1{
+height:271px;
+width:228px;
+background:url(Character.gif) -300px -0px no-repeat;
+}	
+#charactergif2{
+height:326px;
+width:535px;
+background:url(Character2.gif) -3px -1px no-repeat;
+}
+#skeletongif1{
+height:309px;
+width:181px;
+background:url(Skeleton.gif) -4px -2px no-repeat;
+}
+#skeletongif2{
+height:309px;
+width:190px;
+background:url(Skeleton.gif) -187px -1px no-repeat;
+}
